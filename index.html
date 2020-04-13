@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Affordability</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Vacation Affordibility Grader</h1>
+    </header>
+    <main>
+    <p>
+        Let's face it- everybody loves a nice vacation, but traveling can be EXPENSIVE! Our application evaluates your prospective travel destination and gives you an "Affordibility Grade" for that city. Your "Affordability Grade" gives you an idea of how expensive you can expect your trip to be while traveling. 
+    </p>
+    <form action="submit" id='form'>
+        <label for="search-city">City:</label>
+        <input name='search-city' type="text" id='city-search'>
+
+        <label for="search-state">State:</label>
+        <input name='search-state' type="text" id='state-search' required>
+
+        <label for="search-zip">Zip Code:</label>
+        <input name='search-zip' type="number" id='zip-search' required>
+        <div id='search-btn'>
+            <button>Search</button>
+        </div>
+    </form>
+    <section>
+        <div id='display-results'></div>
+    </section>
+  
+ 
+    <footer>
+
+    </footer>
+    <img id='background-img' src="./images/map.jpg" alt="background map image">   
+    </main> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="app.js"></script> 
+</body>
+</html>

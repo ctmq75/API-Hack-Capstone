@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+#background-img {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    filter: brightness(60%);
+    left: 0;
+    top: 0;
+    z-index:-1;
+
+}
+header{
+    background-color: #1b1b1b;
+    height: 5em;
+    
+ 
+}
+p {
+    background-color: white;
+    border-radius: 15px;
+    padding: 1.5em;
+}
+#form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#search-btn {
+    margin-left: .2em;
+}
+
+#display-results {
+    color: white;
+    font-size: 26px;
+}

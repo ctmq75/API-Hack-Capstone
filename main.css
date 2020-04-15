@@ -6,6 +6,13 @@ h1{
     color: #fbeec1;
     text-align: center;
 }
+button {
+    background-color: white;
+    border-radius: 5px;
+}
+input {
+    border-radius: 5px;
+}
 
 #background-img {
     height: 100%;
@@ -138,7 +145,7 @@ label {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 550px) {
     .intro {
         margin: 8em 5em 3em;
 
@@ -165,6 +172,47 @@ label {
 }
 
 @media screen and (min-width: 1224px) {
+    .intro {
+        margin: 8em 8em 4em;
+        padding: 2em;
+    
+    }
+    .form{
+        width: auto;
+        padding: .8em;
+    }
+    .no-results{
+        padding: 1.5em;
+    }
+    .rating-a{
+        padding: 1em;
+        margin-bottom: 5em;
+    }
+    
+    .rating-b{
+        padding: 1em;
+        margin-bottom: 5em;
+    }
+    
+    .rating-c{
+        padding: 1em;
+        margin-bottom: 5em;
+    }
+    
+    .rating-d{
+        padding: 1em;
+        margin-bottom: 5em;
+    }
+    
+    .rating-f{
+        padding: 1em;
+        margin-bottom: 5em;
+    }
+
+
+}
+
+@media screen and (min-width: 1824px) {
     .intro {
         margin: 8em 14em 4em;
         padding: 3.5em;

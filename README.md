@@ -2,6 +2,8 @@
 
 ![app screenshot](vaca.jpeg)
 
+<h2>Demo </h2>
+<a href='https://ctmq75.github.io/Vacation-Affordibility-Judge/'>Live App</a>
 
 <h2>Summary</h2>
 <p>Vacation Affordibility Jugde allows users to search for their prospective destination city, and receive an "Affordibility Grade" for that city.</p> 
@@ -15,5 +17,4 @@
 </ul
 
 
-<h2>Demo</h2>
-<a href='https://ctmq75.github.io/Vacation-Affordibility-Judge/'>Live App</a>
+

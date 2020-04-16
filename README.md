@@ -1,7 +1,5 @@
 <h1>Vacation Affordibility Judge</h1>
 
-Link to Live App: https://ctmq75.github.io/Vacation-Affordibility-Judge/
-
 ![app screenshot](vaca.jpeg)
 
 
@@ -15,3 +13,7 @@ Link to Live App: https://ctmq75.github.io/Vacation-Affordibility-Judge/
 <li>jQuery</li>
 <li>JavaScript</li>
 </ul
+
+
+<h2>Demo</h2>
+<a href='https://ctmq75.github.io/Vacation-Affordibility-Judge/'>Live App</a>

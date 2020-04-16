@@ -2,7 +2,7 @@
 
 Link to Live App: https://ctmq75.github.io/Vacation-Affordibility-Judge/
 
-![Image description](Image 4-15-20 at 12.44 PM.jpeg)
+![app screenshot](vaca.jpeg)
 
 
 <h2>Summary</h2>

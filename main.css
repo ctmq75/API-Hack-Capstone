@@ -56,7 +56,8 @@ label {
 }
 .form{
     background-color: #fbeec1;
-    width: 50%;
+    min-width: 40%;
+    width: auto;
     padding: .5em;
     border: 1px solid black;
     border-radius: 15px;
@@ -77,8 +78,6 @@ label {
     display: flex;
     justify-content: center;
 }
-
-
 
 .rating-a{
     background-color: #006600;
@@ -145,11 +144,9 @@ label {
 }
 
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 600px) {
     .intro {
         margin: 8em 5em 3em;
-
-    
     }
     .form-section{
         display: flex;
@@ -165,7 +162,6 @@ label {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-    
     }
 
 
@@ -175,7 +171,6 @@ label {
     .intro {
         margin: 8em 8em 4em;
         padding: 2em;
-    
     }
     .form{
         width: auto;
@@ -216,7 +211,6 @@ label {
     .intro {
         margin: 8em 14em 4em;
         padding: 3.5em;
-    
     }
     .form{
         width: auto;
@@ -249,7 +243,6 @@ label {
         padding: 1.5em;
         margin-bottom: 5em;
     }
-
 
 }
 

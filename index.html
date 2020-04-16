@@ -2,45 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Vacation Affordability</title>
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='main.css'>
+    <link href='https://fonts.googleapis.com/css2?family=Amaranth&display=swap' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css2?family=Open+Sans&display=swap' rel='stylesheet'>
 
 </head>
 <body>
-    <header>
+    <header role='heading'>
         <h1>Vacation Affordibility Judge</h1>
     </header>
-    <main>
-    <p class='intro'>
-        Let's be real... everybody loves a nice vacation, but traveling can be EXPENSIVE! Our application evaluates your prospective travel destination (Must be within the United States) and gives you an "Affordibility Grade" for that city. Your "Affordability Grade" gives you an idea of how expensive you can expect your trip to be while traveling.<br><br> Please enter <b>AT LEAST</b> the State and Zip Code of your destination city below:  
-    </p>
-    <section class='form-section'>
-    <form action="submit" id='form' class='form'>
-        <label for="search-city">City:</label>
-        <input name='search-city' type="text" id='city-search' placeholder='(ex: Chicago)'>
+    <main role='main'>
+        <p class='intro'>
+            Let's be real... everybody loves a nice vacation, but traveling can be EXPENSIVE! Our application evaluates your prospective travel destination (Must be within the United States) and gives you an "Affordibility Grade" for that city. Your "Affordability Grade" gives you an idea of how expensive you can expect your trip to be while traveling.<br><br> Please enter <b>AT LEAST</b> the State and Zip Code of your destination city below:  
+        </p>
+        <section class='form-section'>
+            <form action='submit' id='form' class='form' role='form'>
+                <label for='search-city'>City:</label>
+                <input name='search-city' type='text' id='city-search' placeholder='(ex: Chicago)'>
 
-        <label for="search-state">State:</label>
-        <input name='search-state' type="text" id='state-search' placeholder='(ex: IL)' required>
+                <label for="search-state">State:</label>
+                <input name='search-state' type='text' id='state-search' placeholder='(ex: IL)' required>
 
-        <label for="search-zip">Zip Code:</label>
-        <input name='search-zip' type="number" id='zip-search' placeholder='(ex: 60614)' required>
-        <div id='search-btn'>
-            <button>Search</button>
-        </div>
-    </form>
-</section>
-    <section id='display-results'></section>
-  
- 
-    <footer>
+                <label for='search-zip'>Zip Code:</label>
+                <input name='search-zip' type='number' id='zip-search' placeholder='(ex: 60614)' required>
+                <div id='search-btn'>
+                    <button role='button'>Search</button>
+                </div>
+            </form>
+        </section>
+        <section id='display-results'></section>
 
-    </footer>
-    <img id='background-img' src="./images/map.jpg" alt="background map image">   
+        <img id='background-img' src='./images/map.jpg' alt='background map image'>   
     </main> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="app.js"></script> 
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='app.js'></script> 
 </body>
 </html>

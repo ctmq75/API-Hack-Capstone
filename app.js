@@ -1,6 +1,6 @@
 'use strict';
 
-const key = 'b3d5dfb0c0msh2209aa163d7f8e2p1f21c5jsnfa21be53f5ab';
+const key = process.env.API_KEY;
 let comboArray = [];
 
 //listens for the user to submit search form
@@ -58,13 +58,9 @@ async function getTaxRate(){
 	}));
 
     comboArray.push(response.estimated_combined_rate);
-    formatRates();
-
-}
-//multiplys avg night * local sales tax rate, result it the rating
-function formatRates(){
     let rating = comboArray[0] * comboArray[1];
     rateCity(rating);
+
 }
 //rating gets sent through grading loop, users are shown resulting grade
 function rateCity(rating) {

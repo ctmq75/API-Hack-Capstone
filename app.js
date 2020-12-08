@@ -47,7 +47,7 @@ async function getTaxRate(){
         'method': 'GET',
         'headers': {
             'x-rapidapi-host': 'u-s-a-sales-taxes-per-zip-code.p.rapidapi.com',
-            'x-rapidapi-key': 'b3d5dfb0c0msh2209aa163d7f8e2p1f21c5jsnfa21be53f5ab'
+            'x-rapidapi-key': process.env.API_KEY_TAXES
 	    }
     }
     const response = await fetch(url, options)

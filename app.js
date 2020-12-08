@@ -23,7 +23,7 @@ async function getRoomRate(city, state, zip){
         'method': 'GET',
 	    'headers': {
 		    'x-rapidapi-host': 'mashvisor-api.p.rapidapi.com',
-		    'x-rapidapi-key': 'b3d5dfb0c0msh2209aa163d7f8e2p1f21c5jsnfa21be53f5ab'
+		    'x-rapidapi-key': key
 	    }
     }
     const response = await fetch(url, options)
